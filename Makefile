@@ -3,12 +3,12 @@ AUTHOR=damarinz
 VERSION=0.1
 PORT=1880
 
-build-image:
+buildimage:
 	docker build -t $(AUTHOR)/$(NAME):$(VERSION) .
 
 restart: stop start
 
-create-container:
+createcontainer:
 	docker run -itd \
 		--restart=always \
 		-p $(PORT):$(PORT) \

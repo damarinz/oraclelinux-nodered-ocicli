@@ -18,8 +18,8 @@ make (build-image|create-container|start|stop|restart|attach|logs)
 
 
 
-- build-image イメージをbuildします
-- create-container コンテナを作成します(docker run)
+- buildimage イメージをbuildします
+- createcontainer コンテナを作成します(docker run)
 - start (docker container start)
 - stop (docker container stop)
 - restart
