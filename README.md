@@ -14,7 +14,7 @@ oci-cliはご自身で設定してください。対話型なので先に入れ�
 
 ## Usage 使い方
 
-make (build-image|create-container|start|stop|restart|attach|logs)
+make (buildimage|createcontainer|start|stop|restart|attach|logs)
 
 
 
